@@ -6,7 +6,7 @@
     "packageRules": [
         {
             "matchDatasources": [ "pypi" ],
-            "matchPackagePatterns": [ "^aws-cdk\\.aws\\w-alpha$"],
+            "matchPackageNames": [ "aws-cdk.aws-iot-alpha"],
             "ignoreUnstable": false
         }
     ]
