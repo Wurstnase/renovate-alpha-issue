@@ -6,7 +6,7 @@
     "packageRules": [
         {
             "matchDatasources": [ "pypi" ],
-            "matchPackagePatterns": [ "^aws-cdk.*-alpha$"],
+            "matchPackagePatterns": [ "^aws-cdk\\..*-alpha$"],
             "ignoreUnstable": false
         }
     ]
